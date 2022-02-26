@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- fonts link -->
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+     <!-- css style sheet -->
+     <link rel="stylesheet" href="style.css">
+
+     <title>Temperature converter</title>
+     <style>
+        
+     </style>
+</head>
+
+<body>
+     <div id="content">
+               <h3>TEMPERATURE CONVERTOR</h3>
+          <form>
+               <input type="number" id="tempValue" placeholder="enter value....." required>
+               <br>
+               <select name="temperature" id="temperature" onchange="get_temperature()">
+                    <option>Select</option>
+                    <option value="celsius">Celsius</option>
+                    <option value="kelvin">Kelvin</option>
+                    <option value="farenhit">Farenhit</option>
+               </select>
+               <div id="output"></div>
+               <!-- <br> -->
+               <span id="error"></span>
+               <hr>
+               <br>
+               <input type="reset" id="reset" value="RESET" onclick="reset_value()">
+
+          </form>
+          <button id="enter" onclick="sub()">SUBMIT</button>
+     </div>
+
+     <script src="script.js"></script>
+</body>
+
+</html>

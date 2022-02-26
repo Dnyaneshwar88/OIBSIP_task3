@@ -1,0 +1,84 @@
+#content {
+     /* text-align: center; */
+     border: 2px solid black;
+     margin: 10%;
+     padding: 1rem 10%;
+}
+
+/* heading */
+h3 {
+     font-family: 'Roboto Mono', monospace;
+     margin-left: 35%;
+}
+
+/* input value of tempearture */
+#tempValue {
+     border: 2px solid black;
+     margin: 1rem 30%;
+     width: 40%;
+     padding: 1rem;
+     border-top: none;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+
+select {
+     display: inline-block;
+     position: absolute;
+     height: 3.2rem;
+     font-size: 2rem;
+     margin-left: 10%;
+     width: 15%;
+}
+
+/* for reset */
+#reset {
+     font-size: 2rem;
+     display: inline-block;
+     position: absolute;
+     margin-left: 10%;
+     width: 15%;
+     padding: 1rem;
+     font-family: 'PT Sans', sans-serif;
+     border: 2px solid #e40505;
+     color: #e40505;
+}
+
+#reset:hover {
+     background-color: #e40505;
+     color: white;
+}
+
+/* to display */
+#output {
+     font-family: 'Roboto Condensed', sans-serif;
+     display: inline-block;
+     height: 3rem;
+     margin-left: 45%;
+     width: 50rem;
+     font-size: 2rem;
+     width: 20rem;
+     color: black;
+     border: 2px solid black;
+}
+
+/* for submit */
+#enter {
+     font-size: 2rem;
+     display: inline-block;
+     margin-left: 50%;
+     width: 20%;
+     font-family: 'PT Sans', sans-serif;
+     border: 1px #0c358d solid;
+     color: #0c358d;
+     padding: 1rem;
+}
+
+#enter:hover {
+     background-color: #0c358d;
+     color: white;
+}
+
+#error{
+     margin-left: 35%;
+     font-family: 'PT Sans', sans-serif;
+}
